@@ -147,6 +147,11 @@ const languages = [
         percentage: "93%" 
     },
     {
+        name: "Nestjs",
+        icon: "fa-brands fa-nestjs",
+        percentage: "89%" 
+    },
+    {
         name: "Laravel",
         icon: "fa-brands fa-laravel",
         percentage: "87%" 
