@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Naaman Munguti - Personal Portfolio and Resume">
+    <meta name="keywords" content="Naaman Munguti, Portfolio, Resume, Web Developer, Designer, Skills, Projects">
+    <meta name="author" content="Naaman Munguti">
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/public/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/public/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/public/images/favicon-16x16.png">
+    <link rel="manifest" href="/public/images/site.webmanifest">
+    <title>Naaman Munguti - Portfolio</title>
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- font-awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- aos cdn source -->
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+    <!-- link to external style sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <aside class="aside1">
+            <div class="side-card">
+                <div class="name-work">
+                    <h1>Naaman<sup>n</sup></h1>
+                    <div class="work">
+                        <p>Designer</p>
+                        <p>& Developer</p>
+                    </div>
+                </div>
+                <div class="photo">
+                    <img src="/public/images/me.jpg" alt="profile picture of Naaman" />
+                </div>
+                <div class="email-location">
+                    <p>naamandeveloper@gmail.com</p>
+                    <p>Based in Nakuru, Kenya.</p>
+                </div>
+                <div class="copyright">
+                    © <span id="year1"></span> Naaman. All Rights Reserved
+                </div>
+                <div class="social-icons">
+                   <div class="icon"><i class="fa-brands fa-twitter"></i></div>
+                   <div class="icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                   <div class="icon"><i class="fa-brands fa-github"></i></div>
+                </div>
+                <div class="hire-button">
+                    <a href="#contacts"><i class="fa-regular fa-envelope"></i>Hire Me!</a>
+                </div>
+            </div>
+        </aside>
+        <article>
+            <div class="main-content">
+                <section id="home" class="introduce">
+                    <div class="btn-title">
+                        <i class="fa-solid fa-house"></i>
+                        <h3>Introduce</h3>
+                    </div>
+                    <div onclick="showNav()" class="close">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="greeting">
+                        <h2>Say Hi from <span>Naaman</span>, <br/>Designer and Developer</h2>
+                    </div>
+                    <div class="what-i-do">
+                        <p>I design and code beautifully simple things and i love what i do.</p>
+                        <p>Just simple like that!</p>
+                    </div>
+                    <div class="spinner-container">
+                        <svg class="spinner" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="100" cy="100" r="98" fill="transparent" stroke="#333" stroke-width="4"/>
+                          <path id="spinnerPath" d="M 100 100 m -90 0 a 90 90 0 1 0 180 0 a 90 90 0 1 0 -180 0" fill="transparent"/>
+                          <text class="spin-text" fill="white">
+                            <textPath href="#spinnerPath">Innovative problem solver delivering efficient, scalable solutions. Versatile software engineer creating impactful, scalable solutions.</textPath>
+                          </text>
+                        </svg>
+                      </div>
+                    <div class="experience">
+                        <div class="timeline">
+                            <h3>5+</h3>
+                            <strong>Years of<br/> Experience</strong>
+                        </div>
+                        <div class="timeline">
+                            <h3>100+</h3>
+                            <strong>Projects<br/> completed</strong>
+                        </div>
+                    </div>
+                </section>
+                <section id="about" class="about">
+                    <div class="btn-title">
+                        <i class="fa-solid fa-user"></i>
+                        <h3>About</h3>
+                    </div>
+                    <div class="info">
+                        <h2>Every great design begin with an<br/> even <span>better story</span></h2>
+                    </div>
+                    <div class="story">
+                        <p>My programming journey embarked with web development, where I immersed myself in HTML, CSS, and JavaScript, sculpting engaging online experiences. Seeking broader horizons, I transitioned to desktop programming, harnessing the power of Python's Tkinter to craft intuitive applications. Driven by a desire for versatility, I then embraced mobile development with Flutter, mastering the art of creating seamless and responsive mobile apps. This progression across web, desktop, and mobile realms has not only deepened my technical expertise but also instilled a profound appreciation for the diverse landscapes within the coding realm.</p>
+                    </div>
+                </section>
+                <section id="resume" class="resume">
+                    <div class="btn-title">
+                        <i class="fa-solid fa-star"></i>
+                        <h3>Resume</h3>
+                    </div>
+                    <div class="info">
+                        <h2>Education & <span>Experience</span></h2>
+                    </div>
+                    <div id="experienceCont" class="experience-cont">
+                        <!-- data from index.js -->
+                    </div>
+                </section>
+                <section id="services" class="specializations">
+                    <div class="btn-title">
+                        <i class="fa-solid fa-gears"></i>
+                        <h3>Services</h3>
+                    </div>
+                    <div class="info">
+                        <h2>My <span>Specializations</span></h2>
+                    </div>
+                    <div id="skillsCont" class="skills-cont">
+                        <!-- data from index.js -->
+                    </div>
+                </section>
+                <section id="skills" class="languages">
+                    <div class="btn-title">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>My Skills</h3>
+                    </div>
+                    <div class="info">
+                        <h2>My <span>Advantages</span></h2>
+                    </div>
+                    <div id="languagesCont" class="languages-cont">
+                        <!-- data from index.js -->
+                    </div>
+                </section>
+                <section id="projects" class="projects">
+                    <div class="btn-title">
+                        <i class="fa-solid fa-gift"></i>
+                        <h3>Portfolio</h3>
+                    </div>
+                    <div class="info">
+                        <h2>Featured <span>Projects</span></h2>
+                    </div>
+                    <div id="projectsCont" class="projects-container">
+                        <!-- data from index.js -->
+                    </div>
+                </section>
+                <section id="testimonials" class="testimonials">
+                    <div class="btn-title">
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <h3>Testimonial</h3>
+                    </div>
+                    <div class="info">
+                        <h2>Trusted By <span>Hundred Clients</span></h2>
+                    </div>
+                    <div id="testimonialsCont" class="testimonials-cont">
+                        <!-- data from index.js -->
+                    </div>
+                </section>
+                <section id="contacts" class="contact">
+                    <div class="btn-title">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h3>Contact</h3>
+                    </div>
+                    <div class="info">
+                        <h2>Let's Work <span>Together!</span></h2>
+                    </div>
+                    <div class="email-address">
+                        <p>naamandeveloper@gmail.com</p>
+                    </div>
+                    <div class="marked-fields">
+                        <p>*Marked fields are required to fill</p>
+                    </div>
+                    <form id="emailForm">
+                        <div class="field-cont">
+                            <div class="field">
+                                <label for="fullname"><h3>Full Name<span class="required">*</span></h3></label>
+                                <input type="text" id="fullname" placeholder="Your full name" required>
+                            </div>
+                            <div class="field">
+                                <label for="email"><h3>Email<span class="required">*</span></h3></label>
+                                <input type="email" id="email" placeholder="Your email address" required>
+                            </div>
+                        </div>
+                        <div class="field-cont">
+                            <div class="field">
+                                <label for="phone"><h3>Phone<span class="optional">(optional)</span></h3></label>
+                                <input type="text" id="phone" placeholder="Your phone number" required>
+                            </div>
+                            <div class="field">
+                                <label for="subject"><h3>Subject<span class="required">*</span></h3></label>
+                                <input type="text" id="subject" placeholder="A subject for your message" required>
+                            </div>
+                        </div>
+                        <div class="budjet">
+                            <label for="budjet"><h3>Your Budjet<span class="optional">(optional)</span></h3></label>
+                            <input type="text" id="budjet" placeholder="A range budjet for your project" required>
+                        </div>
+                        <div class="message">
+                            <label for="message"><h3>Message<span class="required">*</span></h3></label>
+                            <textarea name="" id="message" cols="30" rows="10" placeholder="Write your message here..." required></textarea>
+                        </div>
+                        <div class="submit-btn">
+                            <button>Send message</button>
+                        </div>
+                    </form>
+                </section>
+                <footer>
+                    © <span id="year2"></span> <span class="footer-name">Naaman</span>. All Rights Reserved
+                </footer>
+            </div>
+            <aside class="aside2" id="nav">
+                <div onclick="hideNav()" class="bar-icon">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="nav-cont">
+                    <a href="#home"><i class="fa-solid fa-house"></i></a>
+                    <a href="#about"><i class="fa-solid fa-user"></i></a>
+                    <a href="#resume"><i class="fa-solid fa-star"></i></a>
+                    <a href="#services"><i class="fa-solid fa-code"></i></a>
+                    <a href="#skills"><i class="fa-solid fa-gift"></i></a>
+                    <a href="#projects"><i class="fa-solid fa-money-bill"></i></a>
+                    <a href="#testimonials"><i class="fa-solid fa-thumbs-up"></i></a>
+                    <a href="#contacts"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </aside>
+        </article>
+    </main>
+    <!-- link to emailjs -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <!-- aos js source -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- initializing aos -->
+    <script>
+        AOS.init();
+    </script>
+    <!-- link to external js file -->
+    <script src="index.js" defer></script>
+</body>
+</html>
