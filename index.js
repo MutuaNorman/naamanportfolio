@@ -29,6 +29,10 @@ const experience = [
             {
                 name: "Sem Polisher Designer and Web Application Developer",
                 organization: "Sem Polisher"
+            },
+            {
+                name: "System developer and Maintenance",
+                organization: "Tifa Research"
             }
         ]
     },
