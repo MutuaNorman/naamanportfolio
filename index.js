@@ -188,21 +188,21 @@ const testimonials = [
         "description": "Naaman excels in programming, showcases deep understanding, and contributes positively to collaborative projects. Highly recommended!",
         "designation": "Professor, Department of Accounting, Finance and Management Science, Faculty of Commerce.",
         "organisation": " Egerton University",
-        "image":"/public/images/jerotichsirma.jpeg"
+        "image":"./public/images/jerotichsirma.jpeg"
     },
     {
         "name" : "Clement Lubanga",
         "description": "Kengen exhibited exceptional skills and dedication during his attachment at KenGen. His work significantly contributed to our success.",
         "designation": "Senior IT Officer, Head of IT Department, Hydro Plaza Eastern Region.",
         "organisation": " Kengen",
-        "image":"/public/images/user.jpeg"
+        "image":"./public/images/user.jpeg"
     },
     {
         "name" : "Engineer Michael Tobiko",
         "description": "Mike has been an invaluable support in my programming journey. His guidance and encouragement fueled my success.",
         "designation": "Professor, Electronics and Nano Technology Engineer.",
         "organisation": " Middle East Technical University",
-        "image":"/public/images/user.jpeg"
+        "image":"./public/images/user.jpeg"
     }
 ];
 
@@ -229,19 +229,19 @@ const projectsCont = document.getElementById("projectsCont");
 
 const projects = [
     {
-        "image":"/public/images/essay.png",
+        "image":"./public/images/essay.png",
         "description": "Essaywizz online writing website"
     },
     {
-        "image":"/public/images/polisher.png",
+        "image":"./public/images/polisher.png",
         "description": "SemPolisher Studying website"
     },
     {
-        "image":"/public/images/darkicons.jpeg",
+        "image":"./public/images/darkicons.jpeg",
         "description": "Figma designed icons"
     },
     {
-        "image":"/public/images/power.jpeg",
+        "image":"./public/images/power.jpeg",
         "description": "Admin dashboard website"
     }
 ];
