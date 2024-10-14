@@ -111,7 +111,8 @@ const specializations = [
         name:"IT Support",
         description:"I can provide support to corporate IT systems and network administration",
         projects:"3 Months"
-    }
+    },
+    
 ];
 
 skillsCont.innerHTML = specializations.map((skill) => {
